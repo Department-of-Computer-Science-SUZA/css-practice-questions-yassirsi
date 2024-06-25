@@ -1,0 +1,12 @@
+body {
+    background-image: url(skills.jpg);
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+pre {
+    background-color: rgba (0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}

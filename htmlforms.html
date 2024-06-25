@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <fieldset>
+       <legend>Academic information</legend> 
+    
+    <label for="Degree">Degree</label>
+    <select name="Degree" id="Degree">
+        <option value="degree of education">Degree of education</option>
+        <option value="degree of information">Degree of infomation</option>
+        <option value="master of bussiness administration">master of bussiness administration</option>
+        <option value="bages">bages</option>
+    </select>    
+    <p>
+        <label for="Student ID">Student ID</label>
+        <input type="text" name="Student ID" id="Student ID" placeholder="BITAM/10/047/TZ">
+    </p>
+
+    <LABEl for="Class attended">
+        Class attended
+    </LABEl>
+    <select name="Class attended" id="Class attended">
+        <option value="Geography">Geography</option>
+        <option value="mathematics">mathematics</option>
+        <option value="English">English</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend>
+        Personal Details
+    </legend>
+
+    <p><label for="First Name">First Name</label>
+        <input type="text" name="Firts Name" id="First Name">
+    </p>
+    <p><label for="Last Name">Last Name</label>
+        <input type="text" name="Last Name" id="Last Name">
+    </p>
+
+    <legend> Gender
+    <p><label for="Male">Male</label>
+        <input type="radio" name="Male" id="Male">
+    <label for="Female">Female</label>
+        <input type="radio" name="Female" id="Female">
+    </p>
+    </legend>
+    <label for="email">email</label>
+    <input type="text" name="email" id="email">
+</fieldset>
+<BR>
+<textarea name="message" id="message" cols="30" rows="10" placeholder="TERMS AND CONDITIONS"></textarea>
+<BR></BR>
+ <button>send form</button>
+ <button>clear form</button>
+
+</body>
+</html>
